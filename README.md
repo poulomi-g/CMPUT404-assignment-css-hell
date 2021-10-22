@@ -18,6 +18,9 @@ Changes to HTML Files
 
 License/Copyright
 =================
+Poulomi Ganguly, no other collaborators. 
+
+Some CSS styles derived from w3schools.com and svg section dividers from https://www.shapedivider.app/. Images from Unsplash; bad images from gettyimages and shutterstock.
 
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the

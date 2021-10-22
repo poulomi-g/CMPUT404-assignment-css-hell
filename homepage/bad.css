@@ -1,0 +1,162 @@
+
+  
+  body {
+    margin: 0;
+    font-family: "Comic Sans MS";
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  a:visited{
+      text-decoration: none;
+      color: #dbd2fa;
+  }
+  
+  
+  
+  .hero {
+    margin-top: 50px;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Comic Sans MS";
+    color: cyan;
+  }
+  
+  .hero-image {
+    background-image: url("https://image.shutterstock.com/image-photo/bursting-galaxy-elements-this-image-260nw-1024633576.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    color: white;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: left;
+  }
+ 
+ 
+  
+  .section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    max-width: 1200px;
+    margin:0 auto;
+  }
+  .sectionHead {
+    color: rgb(0, 255, 221);
+  }
+  
+
+
+  div {
+      position: relative;
+  }
+  
+  .custom-shape-divider-bottom-1634904027 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      display: none;
+  }
+  
+  .custom-shape-divider-bottom-1634904027 svg {
+      position: relative;
+      
+      width: calc(100% + 1.3px);
+      height: 90px;
+  }
+  
+  .custom-shape-divider-bottom-1634904027 .shape-fill {
+      fill: #FFFFFF;
+      display: none;
+  }
+  
+  #history{
+      background-image: url('https://media.gettyimages.com/photos/spiral-galaxy-picture-id85757595?s=612x612');
+      height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+  }
+  
+  
+  .custom-shape-divider-top-1634906502 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+      display: none;
+  }
+  
+  .custom-shape-divider-top-1634906502 svg {
+      position: relative;
+      display: none;
+      width: calc(100% + 1.3px);
+      height: 93px;
+  }
+  
+  .custom-shape-divider-top-1634906502 .shape-fill {
+      fill: #FFFFFF;
+  }
+  
+  .sidenav {
+      height: 30%;
+      width: 260px;
+      position: fixed;
+      z-index: 1;
+      margin-top: auto;
+      margin-bottom: auto;
+      top: 150px;
+      right: 20px;
+      background-color: rgba(17, 17, 17, 0.204);
+      overflow-x: hidden;
+      
+      color: #ff0000;
+      
+    }

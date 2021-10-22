@@ -1,0 +1,187 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(15, 0, 34, 0.882);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+a:visited{
+    text-decoration: none;
+    color: #dbd2fa;
+}
+
+
+
+.hero {
+  margin-top: 50px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  padding-top: 350px;
+  padding-bottom: 350px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: rgba(41, 7, 36, 0.705);
+  text-align: center;
+  cursor: pointer;
+  font-family: "Montserrat";
+  border-radius: 6px;
+  padding: 20px 40px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transform: scale(1.05);
+}
+
+
+.section {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  max-width: 1200px;
+  margin:0 auto;
+}
+.sectionHead {
+  color: rgb(30, 0, 44);
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+
+div {
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1634904027 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1634904027 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-bottom-1634904027 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#history{
+    background-image: url('https://wallpaperaccess.com/full/729351.png');
+    height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+
+.custom-shape-divider-top-1634906502 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1634906502 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 93px;
+}
+
+.custom-shape-divider-top-1634906502 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.sidenav {
+    height: 30%;
+    width: 260px;
+    position: fixed;
+    z-index: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 150px;
+    right: 20px;
+    background-color: rgba(17, 17, 17, 0.604);
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    padding: 20px;
+  }
